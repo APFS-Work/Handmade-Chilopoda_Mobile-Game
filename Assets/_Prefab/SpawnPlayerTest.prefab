@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4821477714410973075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4821477714410973078}
+  - component: {fileID: 4821477714410973077}
+  - component: {fileID: 4821477714410973076}
+  m_Layer: 0
+  m_Name: SpawnPlayerTest
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4821477714410973078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821477714410973075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4821477714410973077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821477714410973075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0b42d455c7ed8b4faaed623c80fa511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OneShotTurret: {fileID: 7819604358159847237, guid: 465c51e06e0f1094687bc53ed34dfe96, type: 3}
+  Sight: {fileID: 4418541656948004695, guid: 8401fc3bfd30b9744a46d4616b74a0cd, type: 3}
+  speed: {fileID: 6343843863976029590, guid: 1a767debdb95c1c4eb9d930ed0222b6d, type: 3}
+  PartOfPlayer: {fileID: 3257257804124360925, guid: 04451c72c3db07f4ca8a0073f7ad1626, type: 3}
+  top: {fileID: 0}
+  bottom: {fileID: 0}
+  left: {fileID: 0}
+  right: {fileID: 0}
+--- !u!114 &4821477714410973076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821477714410973075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1f2bfc017306140aacfe99c02aea7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BodyPart: []
+  RotateStrength: 5
+  FllowSpeed: 10
+  FllowDis: 2.5
